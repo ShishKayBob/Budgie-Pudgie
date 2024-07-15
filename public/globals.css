@@ -6,8 +6,9 @@
   --background: '#DAD7CD',
 }
 
-html {
-  background: var(--background)
+.body {
+  background-color: var(--background),
+  
 }
 
 @layer utilities {

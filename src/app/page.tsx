@@ -1,11 +1,9 @@
-import { ThemeProvider } from "@mui/material/styles";
-import { theme } from "./theme";
-import { Button } from "@mui/material";
+import LandingPage from "@/components/organisms/LandingPage";
 
 function Home() {
     return (
-        <><h1>Hi</h1><Button>Wassup</Button></>
-)
+        <LandingPage></LandingPage>
+    )
 }
 
 export default Home;

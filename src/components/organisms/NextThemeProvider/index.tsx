@@ -6,4 +6,4 @@ const NextThemeProvider = ({ children }: { children: React.ReactNode }) => {
     return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 
-export default NextThemeProvider
+export default NextThemeProvider;
