@@ -18,21 +18,21 @@ function Hero({
             <Container maxWidth='md'>
                 <Grid container>
                     {image && (
-                        <Grid item xs={12} sx={{ pb: 2.6, pt: 3.4, textAlign: 'center' }}>
-                            <Image src={image} width={imageWidth} height={imageHeight} alt={imageAltText} />
+                        <Grid item xs={12} sx={{ pb: 2.6, pt: 3.4 }}>
+                            <Image style={{margin: "auto"}} src={image} width={imageWidth} height={imageHeight} alt={imageAltText} />
                         </Grid>
                     )}
                     <Grid item container>
                         <Grid item sx={{ pb: 2.6, pt: 3.4 }}>
                             <Typography variant='h3' component='h1' sx={{ fontWeight: 300 }}>{title}</Typography>
                         </Grid>
-                        <Grid item sx={{ pb: 2.6,}}>
+                        <Grid item sx={{ pb: 2.6, }}>
                             <Typography variant='h5' component='h2'>{subtitle}</Typography>
                         </Grid>
                         <Grid item sx={{ pb: 4.4 }}>
                             <Typography component='p'>{body}</Typography>
                         </Grid>
-                        <Grid item xs={12} sx={{ pb: 1 }}>
+                        <Grid item xs={12} sx={{ pb: 1, textAlign: "center" }}>
                             <Button href={buttonHref} variant='contained'>{buttonText}</Button>
                         </Grid>
                     </Grid>
